@@ -10,4 +10,9 @@ body {
     font-size: 60px;
     margin: 5px;
     cursor: pointer;
+    color: #eee;
+}
+.jogador, .vencedor {
+    margin-top: 10px;
+    font-size: 30px;
 }
