@@ -1,4 +1,6 @@
-function escolherQuadrado(){
-    console.log('clicou no botão')
+var jogador = null;
+
+function escolherQuadrado(id){
+    console.log(id);
 }
     
