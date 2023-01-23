@@ -1,0 +1,47 @@
+*{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: blanchedalmond;
+    border: 1px solid gray;
+    display: inline-block;
+}
+
+.o{
+    position: relative;
+}
+
+.o:after{
+    position: absolute;
+    content:"\1F6E1";
+    font-size: 50px;
+    line-height: 150px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+.x{
+    position: relative;
+}
+
+.x:after{
+    position: absolute;
+    content:"\2694";
+    font-size: 50px;
+    line-height: 150px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+button {
+    margin-top: 20px;
+    font-size: larger;
+}
