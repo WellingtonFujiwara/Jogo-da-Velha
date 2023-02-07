@@ -32,10 +32,22 @@ function updateSquares() {
         let symbol = board[position]
         
         if (symbol != '') {
-            square.innerHTML = `<div class=${symbol}></div>`
+            square.innerHTML = `<div class=${symbol}></div>`;
         }
         
     })
+}
+
+function restart() {
+    board = ["", "", "", "", "", "", "", "", ""];
+    playerTime = 0;
+    gameOver = false;
+    
+    let squares = document.querySelectorAll('.square');
+    
+    squares.forEach((square) => {
+        square.innerHTML = "";
+    }) 
 }
 
 

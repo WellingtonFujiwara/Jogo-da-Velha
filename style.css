@@ -45,3 +45,11 @@ button {
     margin-top: 20px;
     font-size: larger;
 }
+
+button{
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(81, 81, 189);
+    color: blanchedalmond;
+}
